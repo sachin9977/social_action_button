@@ -11,29 +11,21 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# SocialActionButton
+
+(Instagram post social button) A Flutter package for easily implementing social media action buttons (like, comment, share, save) in your app with customizable options.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Customizable buttons for social media actions.
+- Easy to implement with just a few lines of code.
+- Includes buttons like 'Like', 'Comment', 'Share', and 'Save'.
+- Configurable appearance and callback handlers for each button.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use the SocialActionButton package in your Flutter app, add it to your dependencies in the `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  social_action_button: ^0.0.1
